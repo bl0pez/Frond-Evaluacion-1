@@ -1,15 +1,37 @@
 html {
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-img {
+h1 {
+    padding: 1rem 0;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.img-card {
+    height: 700px !important;
+    object-fit: cover !important;
+    width: 100% !important;
+    object-position: center !important;
+}
+
+/* .carousel-item img {
+    width: 100%;
+    object-fit: cover;
+} */
+
+/* img {
     height: 700px !important;
     width: 100% !important;
     object-fit: cover !important;
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     img {
         height: auto !important;
     }
-}
+} */
